@@ -19,8 +19,6 @@ class App extends Component {
 
   onClickCharHandler = (index) => {
 
-    console.log('index', index);
-
     let text = this.state.text;
     text = text.slice(0, index) + text.slice(index + 1);
 
